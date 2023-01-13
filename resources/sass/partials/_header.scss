@@ -1,4 +1,46 @@
 header {
-    height: 60px;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    font-weight: 900;
+    height: $header-heigth;
     width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    .container {
+
+        .logo {
+            width: 40px;
+            margin-right: 20px;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 20px;
+
+            a {
+                color: black;
+            }
+        }
+
+        button {
+            border: none;
+            background-color: transparent;
+
+            &:hover {
+                background-color: transparent;
+                color: $blue;
+            }
+        }
+
+        .header-search button, .header-login button  {
+            padding: 8px 10px;
+        }
+
+        .header-login button {
+            padding: 8px 10px;
+        }
+    }
 }
