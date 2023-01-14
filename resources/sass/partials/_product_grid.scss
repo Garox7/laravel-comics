@@ -22,12 +22,14 @@ section.product-grid {
             flex: 1 1 calc(100% / 6 - 5rem);
             min-width: 160px;
             height: 270px;
+            padding: 0 5px;
 
             a {
 
                 .card-cover {
                     height: $card-size;
-                    width: $card-size;
+                    // width: $card-size;
+                    width: 100%;
 
                     img {
                         object-fit: cover;
@@ -40,7 +42,7 @@ section.product-grid {
                     font-size: 16px;
                     font-weight: bold;
                     text-transform: uppercase;
-                    width: $card-size;
+                    width: 100%;
                     margin-top: 10px;
                 }
             }
@@ -52,8 +54,8 @@ section.product-grid {
     }
 }
 
-@media screen and (max-width: 1080px) {
-    section .card-container .card {
+@media screen and (max-width: 1090px) {
+    section.product-grid .card-container .card {
         flex: 1 1 calc(100% / 4 - 3rem);
     }
 }
