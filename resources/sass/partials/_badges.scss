@@ -2,36 +2,36 @@ section.badges {
     background-color: #3880f1;
     width: 100%;
 
-}
+    .badges-container {
+        padding: 2rem 1rem;
+        justify-content: space-around;
+        flex-wrap: wrap;
 
-.badges-container {
-    padding: 2rem 1rem;
-    justify-content: space-around;
-    flex-wrap: wrap;
+        .badges {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: .5rem;
 
-    .badges {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: .5rem;
+            img {
+                height: 45px;
+                width: fit-content;
+            }
 
-        img {
-            height: 45px;
-            width: fit-content;
-        }
+            &:last-child img {
+                height: 30px;
+            }
 
-        &:last-child img {
-            height: 30px;
-        }
-
-        h4 {
-            color: white;
-            font-size: 14px;
-            font-weight: 400;
-            text-transform: uppercase;
+            h4 {
+                color: white;
+                font-size: 14px;
+                font-weight: 400;
+                text-transform: uppercase;
+            }
         }
     }
 }
+
 
 @media screen and (max-width: 768px) {
     .badges-container {
