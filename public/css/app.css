@@ -225,7 +225,6 @@ section.badges .badges-container .badges h4 {
   }
 }
 .footer__top {
-  background-image: url("asset('images/footer-bg.jpg')");
   background-position: center;
   background-size: cover;
   width: 100%;
