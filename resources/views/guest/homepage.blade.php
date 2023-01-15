@@ -6,4 +6,6 @@
     @include('guest.partials.product_grid')
 
     @include('guest.partials.badges')
+
+    @include('guest.partials.sign-up')
 @endsection
